@@ -1,0 +1,1 @@
+This is basically an AOSP without customization. Nexus devices run it.
