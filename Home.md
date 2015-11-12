@@ -20,8 +20,8 @@ Unlike others, this wiki lives on the [GitHub](https://github.com/RomanSaveljev/
 
 General information about baseline vendors:
 
-* [Google](vendors/google.md)
-* [Qualcomm](vendors/qualcomm.md)
+* [Google](vendors/Android-by-Google)
+* [Qualcomm](vendors/Android-by-Qualcomm)
 
 ## Android build system
 
