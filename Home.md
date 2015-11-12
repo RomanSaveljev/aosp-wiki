@@ -18,5 +18,23 @@ Unlike others, this wiki lives on the [GitHub](https://github.com/RomanSaveljev/
 
 ## Android vendors
 
+General information about baseline vendors:
+
 * [Google](vendors/google.md)
 * [Qualcomm](vendors/qualcomm.md)
+
+## Android build system
+
+Not a definitive guide, but rather a collection of useful topics:
+
+* [Dedicated docker image](android-build-system/docker-image.md)
+* [Source code organization](android-build-system/source-code-organization.md)
+* [hmm commands](android-build-system/hmm-commands.md)
+* [Tricks and bugs](android-build-system/tricks-and-bugs.md)
+
+## Android architecture
+
+Results of ad-hoc code studies captured for memories:
+
+* [Target file system](android-architecture/target-file-system.md)
+* [Code digging](android-architecture/code-digging.md)
