@@ -18,7 +18,7 @@ Unlike others, this wiki lives on the [GitHub](https://github.com/RomanSaveljev/
 
 ## Android vendors
 
-General information about baseline vendors:
+General information about baselines from selected vendors:
 
 * [Google](vendors/Android-by-Google)
 * [Qualcomm](vendors/Android-by-Qualcomm)
