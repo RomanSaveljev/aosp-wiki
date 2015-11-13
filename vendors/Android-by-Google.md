@@ -9,6 +9,6 @@ From [another](https://developers.google.com/android/) place Nexus factory [imag
 
 ## Notes on building Nexus firmware
 
-Synchronize repo manifest and drop all binary blobs into the workspace. Each blob unpacks into `extract_..` script. Running it asks to accept the license and will copy vendor files where they should be. Proceed with `lunch` and `make`.
+Synchronize repo manifest and drop all binary blobs into the workspace. Each blob unpacks into `extract_..` script. Running it asks to accept the license and will copy vendor files where they should be. Proceed with `lunch` and `make`. The process of extracting proprietary blobs is captured to [this](https://asciinema.org/a/65wefpxvj69burxd3pin40wvs#) asciinema-cast.
 
 Skipping binary blobs still creates flashable images, but the device does not start properly with them.
