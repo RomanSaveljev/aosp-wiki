@@ -37,4 +37,4 @@ Not a definitive guide, but rather a collection of useful topics:
 Results of ad-hoc code studies captured for memories:
 
 * [Target file system](android-architecture/target-file-system.md)
-* [Code digging](android-architecture/code-digging.md)
+* [Code digging](android-architecture/Code-digging)
