@@ -41,3 +41,14 @@ picked from the resource:
 
 According to BSP code, to suppress battery LED indications one could configure all colors to black.
 
+## Nexus 7 charging LED
+
+This is a practical explanation example of why Nexus 7 (deb) never lits its notification LED on charging events.
+
+According to traces [setLight_native](http://androidxref.com/6.0.0_r1/xref/frameworks/base/services/core/jni/com_android_server_lights_LightsService.cpp#106) exits prematurely, because `devices->lights[light]` (where `light` is [LIGHT_INDEX_BATTERY](http://androidxref.com/6.0.0_r1/xref/frameworks/base/services/core/jni/com_android_server_lights_LightsService.cpp#39)) is `NULL`.
+
+It could be `NULL`, if previous hardware module opening would fail. The hardware module is implemented in BSP and happens to be `lights.$(TARGET_BOARD_PLATFORM)`. By calling in [this](android-build-system/hmm-commands/get-build-var) trick we can find out its value. It is `msm8960`.
+
+Now, if we look into specific [lights.c](http://androidxref.com/6.0.0_r1/xref/hardware/qcom/display/msm8960/liblight/lights.c#284), then we can see there is no dedicated charging LED. Battery service attempts to control a charging LED state, but the calls are silently ignored.
+
+Another example is [msm8226](http://androidxref.com/6.0.0_r1/xref/hardware/qcom/display/msm8226/liblight/lights.c#271) BSP implementation. It uses a single LED to act as both notification and charging logical LEDs.
