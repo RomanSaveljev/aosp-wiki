@@ -1,3 +1,4 @@
+<!-- --- title: android build system/hmm commands/get_build_var -->
 Prints a variable value defined somewhere deep in the configuration hierarchy.
 
 For example:
