@@ -30,7 +30,7 @@ Not a definitive guide, but rather a collection of useful topics:
 * [Dedicated docker image](android-build-system/docker-image.md)
 * [Source code organization](android-build-system/source-code-organization.md)
 * [hmm commands](android-build-system/hmm-commands)
-* [Tricks and bugs](android-build-system/tricks-and-bugs.md)
+* [Tricks and bugs](general-android/Tricks-and-bugs)
 
 ## Android architecture
 
