@@ -5,7 +5,7 @@ This wiki is a (yet another) place for documenting **A**ndroid **O**pen **S**our
 * [AOSP](https://source.android.com/)
 * [CyanogenMod Wiki](https://wiki.cyanogenmod.org/w/Main_Page)
 * [elinux.org](http://elinux.org/Category:Android)
-* [AndroidStree Wiki](http://wiki.androidstreet.net/)
+* [AndroidStreet Wiki](http://wiki.androidstreet.net/)
 * [Embedded Android by Karim Yaghmour](http://shop.oreilly.com/product/0636920021094.do)
 
 ## How is this one different
